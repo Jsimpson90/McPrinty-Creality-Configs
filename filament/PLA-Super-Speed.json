@@ -1,0 +1,50 @@
+{
+    "base_id": "GFSA04",
+    "default_filament_colour": [
+        "#FF6B35"
+    ],
+    "filament_deretraction_speed": [
+        "50"
+    ],
+    "filament_end_gcode": [
+        ""
+    ],
+    "filament_max_volumetric_speed": [
+        "50"
+    ],
+    "filament_retraction_length": [
+        "0.4"
+    ],
+    "filament_retraction_speed": [
+        "50"
+    ],
+    "filament_settings_id": [
+        "PLA-Super-Speed"
+    ],
+    "filament_start_gcode": [
+        ""
+    ],
+    "filament_vendor": [
+        "McPrinty"
+    ],
+    "from": "User",
+    "inherits": "Hyper PLA @Creality K1C 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "PLA-Super-Speed",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "pressure_advance": [
+        "0.06"
+    ],
+    "slow_down_layer_time": [
+        "3"
+    ],
+    "version": "1.9.0.2"
+}

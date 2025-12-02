@@ -1,0 +1,33 @@
+{
+  "base_id": "GFSA04",
+  "default_filament_colour": "#3F3F3F",
+  "filament_end_gcode": [
+    "; filament end gcode"
+  ],
+  "filament_max_volumetric_speed": "40",
+  "filament_settings_id": [
+    "CF-PLA"
+  ],
+  "filament_start_gcode": [
+    "; filament start gcode\nSET_GCODE_VARIABLE MACRO=PRINTER_PARAM VARIABLE=post_cool_level VALUE=75\nSAFE_WIPE_V2"
+  ],
+  "filament_vendor": [
+    "McPrinty"
+  ],
+  "from": "User",
+  "inherits": "Hyper PLA-CF @Creality K1C 0.4 nozzle",
+  "is_custom_defined": "0",
+  "name": "CF-PLA",
+  "nozzle_temperature": "235",
+  "nozzle_temperature_initial_layer": "225",
+  "nozzle_temperature_range_high": "245",
+  "enable_pressure_advance": "1",
+  "fan_max_speed": "95",
+  "fan_min_speed": "85",
+  "pressure_advance": "0.05",
+  "filament_retraction_length": "0.4",
+  "filament_retraction_speed": "35",
+  "filament_deretraction_speed": "35",
+  "slow_down_layer_time": "5",
+  "version": "1.9.0.2"
+}

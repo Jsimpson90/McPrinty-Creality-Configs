@@ -1,0 +1,17 @@
+{
+  "base_id": "419523",
+  "before_layer_change_gcode": "; #### Start of Before layer change g-code ####\n;[layer_z]\nG92 E0\n; #### End of Before layer change g-code ####",
+  "change_extrusion_role_gcode": "; ####Start of change extrusion role G-Code ####\n; ####Start of change extrusion role G-Code ####",
+  "change_filament_gcode": "; ####Start of change filament G-Code ####\nG2 Z{z_after_toolchange + 0.4} I0.86 J0.86 P1 F10000 ; spiral lift a little from second lift\nG1 X42 Y180 F30000\nG1 Z{z_after_toolchange} F600\n; ####End of change filament G-Code ####",
+  "from": "User",
+  "inherits": "Creality K1C 0.4 nozzle",
+  "is_custom_defined": "0",
+  "layer_change_gcode": "; #### Start of Layer change g-code ####\n;[layer_z]\n; #### End of Layer change g-code ####",
+  "machine_end_gcode": "; #### Start of Machine End g-code ####\nEND_PRINT\n; #### End of Machine End g-code ####",
+  "machine_pause_gcode": "; ####Start of Pause G-Code ####\nPAUSE\n; ####End of Pause G-Code ####",
+  "machine_start_gcode": "; ####Start of change Machine start G-code####\n; Beginning machine start sequence\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\n; Loading initial filament\nT[initial_no_support_extruder]\n; Setting acceleration to 2000\nM204 S2000\n; Setting nozzle temperature\nM104 S[nozzle_temperature_initial_layer]\n; Setting relative extrusion mode\nM83\n; Resetting extruder position\nG92 E0\n; Starting nozzle wipe\nSAFE_WIPE_V2\n; Drawing purge line\nCUSTOM_PURGE_LINE\n; Machine start complete - ready to print!\n; ####End of change Machine start G-code####",
+  "name": "My-K1C-0.4-Noz",
+  "printer_select_mac": "FCEE280B5F07",
+  "printer_settings_id": "My-K1C-0.4-Noz",
+  "version": "25.9.29.17"
+}
