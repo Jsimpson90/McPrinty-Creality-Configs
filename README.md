@@ -1,5 +1,7 @@
 # McPrinty Creality Print Configs
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > **Acknowledgment**: Special thanks to [RetroD on Printables](https://www.printables.com/@RetroD) and [YouTube](https://www.youtube.com/@Retro_D) for their excellent work on the base OrcaSlicer profiles for K1/K1C/K1 Max - 0.4 nozzle. Their profiles served as the launching point for this effort.
 
 > **Note**: These configs are specifically designed for the **Creality K1C with CFS (Creality Filament System) upgrade**. They may not work correctly on stock K1C or other printer models.
